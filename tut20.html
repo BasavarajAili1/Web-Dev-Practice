@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Model</title>
+    <style>
+        *{
+            box-sizing: border-box;
+            margin: 0px;
+            padding: 0px;
+        }
+        body{
+            background-color: #e9e3e8;
+        }
+        .container{
+            background-color: rgba(230, 228, 224, 0.741);
+            border: 2px solid rgb(43, 37, 96);
+            /* we can set padding top, bottom, left, right like below */
+            /* padding-top: 50px;
+            padding-bottom: 50px;
+            padding-left: 30px; 
+            padding-right: 30px; */
+            
+            /*padding: 50px 30px 50px 30px;/* padding / margin: top right bottom left */
+
+            /* pading: Y(top/bottom) x(left/right) like below  */
+            padding: 30px 30px;
+            margin: 30px 30px;
+            border-radius: 25px;
+            width: 300px;
+            
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h3>This is my first heading</h3>
+        <p id="first">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores recusandae modi quaerat sint totam possimus neque error tenetur, mollitia deserunt expedita dolore laboriosam.</p>
+    </div>
+
+    <div class="container">
+        <h3>This is my first heading</h3>
+        <p id="second">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores recusandae modi quaerat sint totam possimus neque error tenetur, mollitia deserunt expedita dolore laboriosam.</p>
+    </div>
+
+    <div class="container">
+        <h3>This is my first heading</h3>
+        <p id="third">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores recusandae modi quaerat sint totam possimus neque error tenetur, mollitia deserunt expedita dolore laboriosam.</p>
+    </div>
+</body>
+</html>
