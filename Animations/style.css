@@ -1,0 +1,46 @@
+p{
+    height: 200px;
+    width: 200px;
+    background: red;
+    /*border-radius: 500px; */
+    border-top-right-radius: 500px;
+    border-top-left-radius: 500px;
+    border-bottom-right-radius: 500px;
+    color: white;
+    font-size: 40px;
+    animation: colorChange 5s infinite;
+    position: relative;
+}
+
+p:hover{
+    opacity: 0;
+}
+
+@keyframes colorChange
+{
+    0%{
+        background: red;
+        left: 0px;
+        top: 0px;
+    }
+    25%{
+        background: rgb(54, 41, 247);
+        left: 300px;
+        top: 0px;
+    }
+    50%{
+        background: rgb(79, 230, 24);
+        left: 300px;
+        top: 300px;
+    }
+    75%{
+        background: rgb(11, 255, 239);
+        left: 0px;
+        top: 300px;
+    }
+    100%{
+        background: pink;
+        left: 0px;
+        top: 0px;
+    }
+}
