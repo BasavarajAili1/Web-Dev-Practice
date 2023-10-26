@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif, Arial, sans-serif;
+}
+
+body{
+    display: flex;
+    color: #1c1e21;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: rgb(242, 242, 253);
+}
+
+.img{
+    display: flex;
+    height: 95px;
+    width: 300px;
+    margin-top: -135px;
+    margin-left: 20px;
+    flex-direction: column;
+}
+h2{
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+    font-size: 25px;
+    font-weight: normal;
+    line-height: 32px;
+    margin-left: 50px;
+    margin-top: -10px;
+    flex-direction: column;
+
+}
+#container{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 100px;
+    padding-top: 40px;
+    padding-left: 120px;
+    padding-right: 120px;
+    border-radius: 8px;
+    text-align: center;
+    min-height: 320px;
+    align-items: center;
+    margin-left: 100px;
+    height: 40px;
+    width: 350px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+input{
+    width: 330px;
+    height: 60px;
+    padding: 10px;
+    border: 1px solid #d8d6d6;
+    border-radius: 5px;
+    font-size: 15px;
+    
+}
+#user-name{
+    margin-top: 40px;
+}
+#password{
+    margin-top: 15px;
+}
+
+input::placeholder{
+    width: fit-content;
+    justify-content: center;
+    text-align: center;
+    color: rgb(150, 145, 145);
+}
+
+#login{
+    color: white;
+    background-color: #1877f2;
+    border: none;
+    border-radius: 5px;
+    height: 50px;
+    font-weight: bold;
+    font-size: larger;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+#new-account{
+    color: white;
+    background-color: #42b72a;
+    border: none;
+    border-radius: 6px;
+    font-weight: bold;
+    font-size: 15px;
+    border: none;
+    width: 180px;
+    height: 100px;
+    text-align: center;
+    cursor: pointer;
+    margin-top: 20px;
+}
+#new-account:hover{
+    background-color: #309e1a;
+}
+#line{
+    color: rgb(218, 218, 218);
+}
+
+#forgot-password{
+    text-decoration: none;
+    color: #1877f2;
+    padding-top: 16px;
+    padding-bottom: 10px;
+    font-size: 12px;
+    width: 120px;
+}
+#forgot-password:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
