@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration Form </title>
+    <link rel="stylesheet" href="student.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Student Registration</h2>
+        <form action="student-register.jsp" method="post">
+            <label for="student-name">Name</label>
+            <input type="text" name="student-name" id="student-name" required>
+
+            <label for="university-id">University ID</label>
+            <input type="text" name="university-id" id="university-id" required>
+
+            <label for="branch">Branch(Stream)</label>
+            <input type="text" name="branch" id="branch" required>
+
+            <label for="yop">Year of Passout</label>
+            <input type="number" min="2018" name="yop" id="yop" required>
+
+            <label for="CGPA">CGPA</label>
+            <input type="number" name="CGPA" id="CGPA" required>
+
+            <label for="mobile">Mobile</label>
+            <input type="number" name="mobile" id="mobile">
+
+            <label for="email">E-mail</label>
+            <input type="email" placeholder="abc@gmail.com" name="email" id="email" required>
+
+            <div class="gender">
+                <label for="gender">Gender:  </label>
+            <label> Male</label><input type="radio" value="Male" name="gender">
+            <label>Female</label><input type="radio" value="Female" name="gender">
+            </div>
+            
+
+            <label for="address">Address</label>
+            <textarea name="address" id="address" cols="30" rows="10"></textarea>
+
+            <label for="mode-of-classes">Mode of Classes</label>
+            <select name="mode-of-classes" id="mode-of-classes">
+                <option value="online">Online</option>
+                <option value="offline">Offline</option>
+            </select>
+
+            <label for="course-type">Choose your course type</label>
+            <select name="course-type" id="course-type">
+                <option value="mcp1">MCP-1 Java and Python Full Stack Development</option>
+                <option value="mcp2">MCP-2 Software Testing (Manual and Automation)</option>
+            </select>
+
+            <button type="submit">Submit</button>
+    </div>
+    
+</body>
+</html>
